@@ -1,0 +1,11 @@
+
+<ng-container  *ngIf="hero">
+    <h2><!-- title --> Jar Jar Binks Details</h2>
+    <div>
+        <label>name:
+            <input [(ngModel)]="hero.name" placeholder="name"/> Détails
+        </label>
+    </div>
+    <div><span>id: </span><!-- id -->{{hero.id}}</div>
+    <div><span>name: </span><!-- name -->{{hero.name | uppercase}}</div>
+</ng-container>
